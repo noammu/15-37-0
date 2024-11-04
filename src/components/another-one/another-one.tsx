@@ -2,6 +2,7 @@ import cx from 'classnames';
 import styles from './another-one.module.scss';
 import { ElemTree } from '../elem-tree/elem-tree';
 import { useState } from 'react';
+import { Accordion } from '../accordion/accordion';
 
 export interface AnotherOneProps {
     /** @format wix-image-id */
@@ -14,11 +15,12 @@ export interface AnotherOneProps {
  */
 
 export const AnotherOne = ({ className }: AnotherOneProps) => {
-    const [la, setLa] = useState(11)
+    const [la, setLa] = useState(11);
     return (
         <div className={cx(styles.root, className)}>
             <ElemTree />
             AnotherOne
+            <Accordion />
         </div>
     );
 };
