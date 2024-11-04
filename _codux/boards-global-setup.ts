@@ -3,3 +3,5 @@ import '~/src/styles/colors.scss';
 import '~/src/styles/typography.scss';
 import '~/src/styles/common.scss';
 import '~/src/styles/index.scss';
+
+import 'semantic-ui-css/semantic.min.css';

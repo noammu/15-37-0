@@ -13,8 +13,8 @@ export default function HomePage() {
                     alt=""
                 />
                 <div className="heroBannerOverlay">
-                    <div className="heroBannerSubtitle">ReClaim</div>
-                    <h1 className="heroBannerTitle">Reuse. Repurpose. Relove.</h1>
+                    <div className="heroBannerSubtitle">ReClaimYourLifeBack</div>
+                    <h1 className="heroBannerTitle">Reuse. Repurpose. Relove. yup.</h1>
                     <CategoryLink categorySlug="all-products">
                         <LabelWithArrow>Shop Collections</LabelWithArrow>
                     </CategoryLink>
